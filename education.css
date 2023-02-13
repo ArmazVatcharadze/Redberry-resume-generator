@@ -1,0 +1,523 @@
+body{
+    margin: 0;
+    padding: 0;
+    
+}
+
+
+
+
+
+
+.inputs-info{
+    width: 58%;
+    background-color: whitesmoke;
+}
+
+
+.first-hr{
+    width: 789px;
+    margin-left: 150px;
+    background-color: #1A1A1A;
+    margin-top: 0px;
+}
+
+form {
+    width: 789px;
+    margin: 0 auto;
+    margin-left: 150px;
+    margin-top: 77px;
+}
+
+
+.inputs-inner{
+    display: flex;
+    align-items: center;
+}
+
+.green-name-job{
+    display: none;
+    position: absolute;
+    margin-top: -37px;
+    margin-left: 795px;
+}
+
+.red-name-job{
+    display: none;
+    position: absolute;
+    margin-top: -37px;
+    margin-left: 795px;
+}
+
+.green-name-mail{
+    display: none;
+    position: absolute;
+    margin-top: -37px;
+    margin-left: 375px;
+}
+
+.red-name-mail{
+    display: none;
+    position: absolute;
+    margin-top: -37px;
+    margin-left: 375px;
+}
+
+
+
+.inputs-inner button{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: none;
+    background-color: #FFFFFF;
+    margin-left: 48px;
+    margin-top: 30px;
+    cursor: pointer;
+}
+
+.inputs-inner h1{
+    margin-top: 40px;
+    margin-left: 61px;
+    margin-bottom: 12px;
+    font-weight: bold;
+}
+
+.inputs-inner p {
+    margin-top: 40px;
+    margin-left: 570px;
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 23px;
+    margin-bottom: 12px;
+    
+}
+
+.wrapper{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+
+.job{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    margin-bottom: 29px;
+}
+
+label{
+    margin-bottom: 8px;
+}
+
+
+.job label{
+    font-family: 'Helvetica Neue';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 21px;
+}
+
+.universityInp{
+    height: 25px;
+    background: #FFFFFF;
+    border: 1px solid #BCBCBC;
+    border-radius: 4px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 21px;
+    padding: 13px 16px;
+}
+
+.employer-name{
+    height: 25px;
+    background: #FFFFFF;
+    border: 1px solid #BCBCBC;
+    border-radius: 4px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 21px;
+    padding: 13px 16px;
+}
+
+form input{
+    height: 25px;
+    background: #FFFFFF;
+    border: 1px solid #BCBCBC;
+    border-radius: 4px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 21px;
+    padding: 13px 16px;
+}
+
+form .job-datas{
+    display: flex;
+    flex-direction: row;
+    gap: 79px;
+    margin-bottom: 33px;
+}
+
+.job-datas input {
+    width: 345px;
+    height: 25px;
+    background: #FFFFFF;
+    border: 1px solid #BCBCBC;
+    border-radius: 4px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 21px;
+    padding-right: 10px;
+    padding-left: 10px;
+    display: flex;
+    align-items: center;
+    margin-top: 8px;
+}
+
+.job-datas label{
+    font-family: 'Helvetica Neue';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 21px;
+    margin-bottom: 8px;
+}
+
+.textarea-div textarea{
+    background: #FFFFFF;
+    border: 1px solid #BCBCBC;
+    border-radius: 4px;
+    font-family: 'Helvetica Neue';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 21px;
+    padding-top: 13px;
+    padding-left: 16px;
+    height: 123px;
+    margin-bottom: 58px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+select{
+    width: 345px;
+    height: 48px;
+    background: #FFFFFF;
+    border: 1px solid #BCBCBC;
+    border-radius: 4px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 21px;
+    padding-right: 10px;
+    padding-left: 10px;
+    display: flex;
+    align-items: center;
+    margin-top: 8px;
+}
+
+option{
+    width: 345px;
+}
+
+.endedjob-data{
+    width: 345px;
+    height: 48px;
+    background: #FFFFFF;
+    border: 1px solid #BCBCBC;
+    border-radius: 4px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 21px;
+    padding-right: 10px;
+    padding-left: 10px;
+    display: flex;
+    align-items: center;
+    margin-top: 8px;
+
+}
+
+
+.textarea-div{
+    display: flex;
+    flex-direction: column;
+}
+
+
+.textarea-div label{
+    font-family: 'Helvetica Neue';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 21px;
+    margin-bottom: 8px;
+}
+
+.job-text-area{
+    background: #FFFFFF;
+    border: 1px solid #BCBCBC;
+    border-radius: 4px;
+    font-family: 'Helvetica Neue';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 21px;
+    padding-top: 13px;
+    padding-left: 16px;
+    height: 123px;
+    margin-bottom: 58px;
+}
+
+.second-hr{
+    margin-bottom: 45px;
+}
+
+.more-education{
+    width: 289px;
+    height: 48px;
+    background: #62A1EB;
+    border-radius: 4px;
+    border: none;
+    font-family: 'Helvetica Neue';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    color: #FFFFFF;
+    margin-left: 150px;
+}
+
+
+.nextpage-info{
+    width: 151px;
+    height: 48px;
+    display: flex;
+    font-style: normal;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 16px;
+    text-align: center;
+    line-height: 20px;
+    letter-spacing: 0.08em;
+    color: #FFFFFF;
+    background-color: #6B40E3;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 80px;
+    
+    justify-content: center;
+    align-items: center;
+}
+
+.nextpage-info-back{
+    width: 113px;
+    height: 48px;
+    display: flex;
+    font-style: normal;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 16px;
+    text-align: center;
+    line-height: 20px;
+    letter-spacing: 0.08em;
+    color: #FFFFFF;
+    background-color: #6B40E3;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 80px;
+    
+    justify-content: center;
+    align-items: center;
+}
+
+.exp-buttons{
+    display: flex;
+    margin-left: 150px;
+    gap: 490px;
+    margin-top: 120px;
+}
+
+
+.resume{
+    width: 42%;
+    height: 100vh;
+}
+
+
+
+
+.resume-inner-wrapp{
+    padding: 68px 80px;
+}
+
+.resume h1, h2{
+    color: #F93B1D;
+}
+/* 
+.resume p{
+    font-family: 'Helvetica Neue';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    text-transform: lowercase;
+    color: #000000;
+} */
+
+
+
+.fullname{
+    display: flex;
+    gap: 20px;
+}
+
+
+
+
+.about h1{
+    font-family: 'Helvetica Neue';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 42px;
+    color: #F93B1D;
+    margin-top: 0;
+    margin-bottom: 17px;
+}
+
+.res-mail{
+    font-family: 'Helvetica Neue';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    color: #1A1A1A;
+    margin-bottom: 0;
+}
+
+.res-num{
+    font-family: 'Helvetica Neue';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    color: #1A1A1A;
+    margin-top: 10px;
+}
+
+.res-about-me{
+    width: 450px;
+}
+
+
+.first-info{
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.img-div img{
+    width: 246px;
+    object-fit: cover;
+    height: 246px;
+    border-radius: 50%;
+}
+
+/*                FIRST PART ENDS HERE                                         */
+
+
+/*      second part  EXPERIENCE      */
+
+.second-info{
+    margin-bottom: 30px;
+}
+
+.job-date-start{
+    font-style: italic;
+}
+
+.job-date-end{
+    font-style: italic;
+}
+
+
+
+.second-info h2{
+    margin-bottom: 15px;
+}
+
+.second-inner{
+    display: flex;
+    gap: 7px;
+}
+
+.second-inner p{
+    margin: 0px;
+}
+
+
+.dates{
+    display: flex;
+    gap: 5px;
+}
+
+
+
+
+.dates p {
+    margin: 0;
+    color: #909090;
+}
+
+/*         third info EDUCATION                    */
+
+.colege-info{
+    display: flex;
+    gap: 16px;
+}
+
+.uni-date{
+    margin: 0;
+    font-style: italic;
+    color: #909090;
+}
+
+.university{
+    margin-bottom: 7px;
+}
+
+.round-red-logo{
+    position: absolute;
+    margin-top: 170px;
+}
+
+.res-mail-logo{
+    display: none;
+}
+
+.res-number-logo{
+    display: none;
+}
+
+
+
+/*         RESUME ENDS HERE                  */

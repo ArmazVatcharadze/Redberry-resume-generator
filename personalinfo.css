@@ -1,0 +1,517 @@
+body{
+    margin: 0;
+    padding: 0;
+    
+}
+
+.wrapper{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+
+
+.inputs-info{
+    width: 58%;
+    background-color: whitesmoke;
+}
+
+
+.inputs-inner{
+    display: flex;
+    align-items: center;
+}
+
+
+.inputs-inner button{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: none;
+    background-color: #FFFFFF;
+    margin-left: 48px;
+    margin-top: 30px;
+    cursor: pointer;
+}
+
+.inputs-inner h1{
+    margin-top: 40px;
+    margin-left: 61px;
+    margin-bottom: 12px;
+    font-weight: bold;
+}
+
+.inputs-inner p {
+    margin-top: 40px;
+    margin-left: 540px;
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 23px;
+    margin-bottom: 12px;
+    
+}
+
+
+
+.inputs-info hr{
+    width: 789px;
+    margin-left: 150px;
+    background-color: #1A1A1A;
+    margin-top: 0px;
+}
+
+.link-to-next{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+
+form{
+    width: 789px;
+    margin: 0 auto;
+    margin-left: 150px;
+    margin-top: 77px;
+}
+
+
+.name-div{
+    display: flex;
+    width: 50%;
+    flex-direction: column;
+}
+
+.surname-div{
+    display: flex;
+    width: 50%;
+    flex-direction: column;
+}
+
+.wrap-fullname{
+    display: flex;
+    gap: 45px;
+}
+
+
+
+
+
+.name-inp{
+    height: 48px;
+    width: 350px;
+    border: 2px solid #BCBCBC;
+    color: #000000;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 21px;
+    padding-left: 16px;
+
+}
+
+
+.surname-inp{
+    height: 48px;
+    width: 350px;
+    border: 2px solid #BCBCBC;
+    color: #000000;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 21px;
+    padding-left: 16px;
+
+}
+
+
+
+
+.name-lable{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 21px;
+    margin-bottom: 8px;
+
+}
+
+
+.green-name{
+    display: none;
+    position: absolute;
+    margin-top: -37px;
+    margin-left: 335px;
+}
+
+.green-surname{
+    display: none;
+    position: absolute;
+    margin-top: -37px;
+    margin-left: 335px;
+}
+
+
+.red-name{
+    display: none;
+    position: absolute;
+    margin-top: -37px;
+    margin-left: 385px;
+}
+
+.red-surname{
+    display: none;
+    position: absolute;
+    margin-top: -37px;
+    margin-left: 385px;
+}
+
+
+
+
+
+.inp-requirement{
+    margin-top: 8px;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 21px;
+    color: gray;
+}
+
+.wrap-fullname label{
+    font-size: 20px;
+}
+
+.upload-inp{
+    display: none;
+}
+
+.label-file{
+    padding: 6px 19px;
+    background-color: #0E80BF;
+    color: #FFFFFF;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+
+.upload-div{
+    display: flex;
+    align-items: center;
+    gap: 19px;
+    margin-top: 34px;
+    margin-bottom: 34px;
+    
+}
+
+.text-area{
+    display: flex;
+    flex-direction: column;
+}
+
+.text-area label{
+    font-size: 18px;
+    margin-bottom: 8px;
+}
+
+textarea{
+    border: 1px solid #BCBCBC;
+    border-radius: 4px;
+    padding-left: 16px;
+    padding-top: 13px;
+    font-size: 19px;
+    height: 103px;
+    margin-bottom: 33px;
+}
+
+
+.mail-div{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 29px;
+}
+
+
+
+.mail-div label{
+    font-size: 19px;
+    margin-bottom: 8px;
+}
+
+.mail-div input{
+    height: 48px;
+    border: 1px solid #BCBCBC;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 21px;
+    padding-left: 16px;
+}
+
+.mail-div p{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 21px;
+    color: gray;
+    margin-top: 8px;
+}
+
+
+.green-name-mail{
+    display: none;
+    position: absolute;
+    margin-top: -37px;
+    margin-left: 755px;
+}
+
+.red-name-mail{
+    display: none;
+    position: absolute;
+    margin-top: -37px;
+    margin-left: 805px;
+}
+
+.number-div{
+    display: flex;
+    flex-direction: column;
+}
+
+.red-name-number{
+    display: none;
+    position: absolute;
+    margin-top: -37px;
+    margin-left: 805px;
+}
+
+.green-name-number{
+    display: none;
+    position: absolute;
+    margin-top: -37px;
+    margin-left: 755px;
+}
+
+.number-div p{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 21px;
+    color: gray;
+    margin-top: 8px;
+}
+
+.number-div input{
+    height: 48px;
+    border: 1px solid #BCBCBC;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 21px;
+    padding-left: 16px;
+}
+
+.number-div label{
+    font-size: 19px;
+    margin-bottom: 8px;
+}
+
+
+.nextpage-info{
+    width: 151px;
+    height: 48px;
+    display: flex;
+    font-style: normal;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 16px;
+    text-align: center;
+    line-height: 20px;
+    letter-spacing: 0.08em;
+    color: #FFFFFF;
+    background-color: #6B40E3;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 100px;
+    margin-left: 640px;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+/*       RESUME PART            */
+
+
+.resume{
+    width: 42%;
+    height: 100vh;
+}
+
+#text-place{
+    height: 103px;
+    border: 1px solid #BCBCBC;
+    border-radius: 4px;
+    padding-top: 13px;
+    padding-left: 16px;
+}
+
+
+
+
+.resume-inner-wrapp{
+    padding: 68px 80px;
+}
+
+.resume h1, h2{
+    color: #F93B1D;
+}
+/* 
+.resume p{
+    font-family: 'Helvetica Neue';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    text-transform: lowercase;
+    color: #000000;
+} */
+
+
+
+.fullname{
+    display: flex;
+    gap: 20px;
+}
+
+
+
+
+.about h1{
+    font-family: 'Helvetica Neue';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 42px;
+    color: #F93B1D;
+    margin-top: 0;
+    margin-bottom: 17px;
+}
+
+.res-mail{
+    font-family: 'Helvetica Neue';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    color: #1A1A1A;
+    margin-bottom: 0;
+}
+
+.res-num{
+    font-family: 'Helvetica Neue';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    color: #1A1A1A;
+    margin-top: 10px;
+}
+
+.res-about-me{
+    width: 420px;
+}
+
+
+.first-info{
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.img-div img{
+    width: 246px;
+    object-fit: cover;
+    height: 246px;
+    border-radius: 50%;
+}
+
+/*                FIRST PART ENDS HERE                                         */
+
+
+/*      second part  EXPERIENCE      */
+
+.second-info{
+    margin-bottom: 30px;
+}
+
+.job-date-start{
+    font-style: italic;
+}
+
+.job-date-end{
+    font-style: italic;
+}
+
+
+
+.second-info h2{
+    margin-bottom: 15px;
+}
+
+.second-inner{
+    display: flex;
+    gap: 7px;
+}
+
+.second-inner p{
+    margin: 0px;
+}
+
+
+.dates{
+    display: flex;
+    gap: 5px;
+}
+
+
+
+
+.dates p {
+    margin: 0;
+    color: #909090;
+}
+
+/*         third info EDUCATION                    */
+
+.colege-info{
+    display: flex;
+    gap: 16px;
+}
+
+.uni-date{
+    margin: 0;
+    font-style: italic;
+    color: #909090;
+}
+
+.university{
+    margin-bottom: 7px;
+}
+
+.round-red-logo{
+    position: absolute;
+    bottom: 44px;
+}
+
+/*         RESUME ENDS HERE                  */
+
+
+.res-mail-logo{
+    display: none;
+}
+
+.res-number-logo{
+    display: none;
+}

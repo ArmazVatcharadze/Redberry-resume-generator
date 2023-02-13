@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resume generator</title>
+    <link rel="shortcut icon" href="LOGO-12 1.png" type="image/x-icon">
+    <link rel="stylesheet" href="experiance.css">
+</head>
+<body>
+
+    <div class="wrapper">
+    <div class="inputs-info">
+
+    <div class="inputs-inner">
+        <a class="refresh-btn" href="index.html"><button><img src="back-arrow.png" alt=""></button></a>
+        <h1>გამოცდილება</h1>
+        <p>2/3</p>
+    </div>
+
+    <hr class="first-hr">
+
+    <div class="form-wrapp">
+
+    <form action="">
+
+        <div class="job">
+            <label for="jobname">თანამდებობა</label>
+            <input name="position" class="job-type" type="text" placeholder="დეველოპერი, დიზაინერი, ა.შ."><span><img  class="green-name-job" src="done-right.png" alt=""></span><span><img  class="red-name-job" src="exclemation.png" alt=""></span>
+            <p>მინიმუმ 2 სიმბოლო</p>
+        </div>
+
+        <div class="job">
+            <label for="jobname">დამსაქმებელი</label>
+            <input name="employer" class="employer-name" type="text" placeholder="დამსაქმებელი"><span><img  class="green-name-employer" src="done-right.png" alt=""></span><span><img  class="red-name-employer" src="exclemation.png" alt=""></span>
+            <p>მინიმუმ 2 სიმბოლო</p>
+        </div>
+
+        <div class="job-datas">
+
+            <div class="start-job">
+                <label for="startdata">დაწყების რიცხვი</label>
+                <input class="startedjob-data" type="date" name="start-date" id="">
+                <span><img  class="green-name-mail" src="done-right.png" alt=""></span>
+                <span><img  class="red-name-mail" src="exclemation.png" alt=""></span>
+            </div>
+
+            <div class="end-job">
+                <label for="startdata">დამთავრების რიცხვი</label>
+                <input class="endedjob-data" type="date" name="due-date" id="">
+                <span><img  class="green-name-mail" src="done-right.png" alt=""></span>
+                <span><img  class="red-name-mail" src="exclemation.png" alt=""></span>
+            </div>
+
+        </div>
+
+        <div class="textarea-div">
+            <label for="jobdescription">აღწერა</label>
+            <textarea placeholder="როლი თანამდებობაზე და ზოგადი აღწერა" class="job-text-area" name="description" id="" cols="30" rows="10"></textarea>
+        </div>
+
+        <hr class="second-hr" >
+    </form>
+    </div>
+
+
+    <button class="more-experiance">მეტი გამოცდილების დამატება</button>
+
+     
+    <div class="exp-buttons">
+        
+        <a class="nextpage-info-back" href="personalinfo.html">უკან</a>
+        <a class="nextpage-info" href="education.html">შემდეგი</a>
+
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <div class="resume">
+        <div class="resume-inner-wrapp">
+
+             <!--       FIRST FORM STYLES start    -->
+
+
+         <div class="first-info">
+
+             <div class="about">
+                 <div class="fullname">
+                     <h1 class="user-name"></h1> <h1 class="surname"></h1>
+                 </div>
+                 
+                 <p class="res-mail"><img class="res-mail-logo" src="@Logo.png" alt="" srcset=""> <span class="email-span"></span></p>
+                 <p class="res-num"><img class="res-number-logo" src="mobileLogo.png" alt="" srcset=""> <span class="number-span"></span></p>
+                 <h2 class="about-header"></h2>
+                 <p class="res-about-me"></p>
+             </div>
+
+             <div class="img-div">
+                 <img class="user-image" src="" alt="">
+             </div>
+
+         </div>
+
+         <!--       FIRST FORM STYLES end   -->
+
+         <hr class="first-brake">
+
+
+         <div class="second-info">
+             <h2 class="exp-head"></h2>
+
+             <div class="second-inner">
+                 <p class="prev-job"> </p>
+                 <p class="employer"></p>
+             </div>
+
+             <div class="dates">
+                 <p class="job-date-start"></p>
+                 <p class="data-center"></p>
+                 <p class="job-date-end"> </p>
+             </div>
+
+             <p class="job-deskription-user"> </p>
+         </div>
+
+         <hr class="second-brake">
+
+
+         <div class="third-info">
+             <h2></h2>
+
+             <div class="colege-info">
+                 <p class="university"></p>
+                 <p class="degree"></p>
+             </div>
+             <p class="uni-date"></p>
+             <p class="education-description"></p>
+             
+         </div>
+
+         <img class="round-red-logo" src="LOGO-12 1.png" alt="">
+        </div>
+     </div>
+
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

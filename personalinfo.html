@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="Permissions-Policy" content="interest-cohort=()">
+    <title>Resume generator</title>
+    <link rel="stylesheet" href="personalinfo.css">
+    <link rel="shortcut icon" href="LOGO-12 1.png" type="image/x-icon">
+</head>
+<body>
+    <div class="wrapper">
+
+        <div class="inputs-info">
+                <div class="inputs-inner">
+                    <a href="index.html"><button class="back-to-start"><img src="back-arrow.png" alt=""></button></a>
+                    <h1>პირადი ინფო</h1>
+                    <p>1/3</p>
+                </div>
+
+
+            <hr>
+
+
+            <form action="">
+
+                <div class="wrap-fullname">
+                    <div class="name-div">
+                        <label class="name-lable" for="name">სახელი</label>
+                        <input name="name" class="name-inp namefull" type="text" placeholder="ანზორ">
+                        <span><img  class="green-name" src="done-right.png" alt=""></span>
+                        <span><img  class="red-name" src="exclemation.png" alt=""></span>
+                        <p class="inp-requirement">მინიმუმ 2 ასო, ქართული ასოები</p>
+                    </div>
+
+                    <div class="surname-div">
+                        <label class="name-lable" for="surname">გვარი</label>
+                        <input name="surname" class="surname-inp namefull" type="text" placeholder="მუმლაძე">
+                        <span><img  class="green-surname" src="done-right.png" alt=""></span>
+                        <span><img  class="red-surname" src="exclemation.png" alt=""></span>
+                        <p class="inp-requirement">მინიმუმ 2 ასო, ქართული ასოები</p>
+                    </div>
+                </div>
+
+
+
+                <div class="upload-div">
+                    <h3>პირადი ფოტოს ატვირთვა</h3>
+                    <input name="image" class="upload-inp" type="file" id="file" accept="image/*">
+                    <label class="label-file" for="file">ატვირთვა</label>
+                </div>
+
+
+                <div class="down-personal">
+
+                    <div class="text-area">
+                        <label for="textarea">ჩემ შესახებ (არასავალდებულო)</label>
+                        <textarea name="about_me" id="text-place" cols="30" rows="10" placeholder="ზოგადი ინფო შენ შესახებ"></textarea>
+                    </div>
+
+                    <div class="mail-div">
+                        <label for="mail">ელ.ფოსტა</label>
+                        <input type="email" name="email" id="email-inp" placeholder="anzorr666@redberry.ge"><span><img  class="green-name-mail" src="done-right.png" alt=""></span><span><img  class="red-name-mail" src="exclemation.png" alt=""></span>
+                        <p>უნდა მთავრდებოდეს @redberry.ge-ით</p>
+                    </div>
+
+                    <div class="number-div">
+                        <label for="number">მობილურის ნომერი</label>
+                        <input type="text" name="phone_number" id="num-inp" placeholder="+995 561 12 34 56"><span><img  class="green-name-number" src="done-right.png" alt=""></span><span><img  class="red-name-number" src="exclemation.png" alt=""></span>
+                        <p>უნდა აკმაყოფილებდეს ქართული მობილურის ნომრის ფორმატს</p>
+                    </div>
+
+                </div>
+
+                <button type="submit" class="nextpage-info"><a class="link-to-next" href="experiance.html">შემდეგი</a></button> 
+                
+            </form>
+
+        </div>
+
+
+
+
+
+        
+
+        <div class="resume">
+           <div class="resume-inner-wrapp">
+
+                <!--       FIRST FORM STYLES start    -->
+
+
+            <div class="first-info">
+
+                <div class="about">
+                    <div class="fullname">
+                        <h1 class="user-name"></h1> <h1 class="surname"></h1>
+                    </div>
+                    
+                    <p class="res-mail"><img class="res-mail-logo" src="@Logo.png" alt="" srcset=""> <span class="email-span"></span></p>
+                    <p class="res-num"><img class="res-number-logo" src="mobileLogo.png" alt="" srcset=""> <span class="number-span"></span></p>
+                    <h2 class="about-header"></h2>
+                    <p class="res-about-me"></p>
+                </div>
+
+                <div class="img-div">
+                    <img class="user-image" src="" alt="">
+                </div>
+
+            </div>
+
+            <!--       FIRST FORM STYLES end   -->
+
+            <hr class="first-brake">
+
+
+            <div class="second-info">
+                <h2 class="exp-head"></h2>
+
+                <div class="second-inner">
+                    <p class="prev-job"> </p>
+                    <p class="employer"></p>
+                </div>
+
+                <div class="dates">
+                    <p class="job-date-start"></p>
+                    <p class="data-center"></p>
+                    <p class="job-date-end"> </p>
+                </div>
+
+                <p class="job-deskription-user"> </p>
+            </div>
+
+            <hr class="second-brake">
+
+
+            <div class="third-info">
+                <h2></h2>
+
+                <div class="colege-info">
+                    <p class="university"> </p>
+                    <p class="degree"></p>
+                </div>
+                <p class="uni-date"></p>
+                <p class="education-description"></p>
+                
+            </div>
+
+            <img class="round-red-logo" src="LOGO-12 1.png" alt="">
+           </div>
+        </div>
+
+    </div>
+
+    
+    <script src="script.js"></script>
+</body>
+</html>

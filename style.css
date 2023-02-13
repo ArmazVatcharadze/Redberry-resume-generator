@@ -1,0 +1,53 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-image: url(shutterstock_2189773743\ 1.png);
+    background-repeat: no-repeat;
+}
+
+.wrapper{
+    width: 100%;
+    height: 100%;
+    
+    
+}
+
+.rbr-logo{
+    margin-top: 25px;
+    margin-left: 70px;
+}
+
+.wrapper hr{
+    width: 1780px;
+    background-color: #1A1A1A;
+    margin-top: 26px;
+}
+
+.inner-div{
+    margin-top: 384px;
+    display: flex;
+    justify-content: center;
+}
+
+.round-logo{
+    margin-right: -550px;
+}
+
+.enter-btn{
+    width: 464px;
+    height: 60px;
+    position: absolute;
+    margin-left: -350px;
+    margin-top: 40px;
+    margin-right: -10px;
+    background-color: #1A1A1A;
+    color: #FFFFFF;
+    font-family: 'Helvetica Neue';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    cursor: pointer;
+    border: none;
+    border-radius: 8px;
+}
